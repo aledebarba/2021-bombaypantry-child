@@ -1,0 +1,32 @@
+:root {
+    // typography
+    --font-stack-sans: "din-2014", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --font-primary: var(--font-stack-sans);
+    --font-light: 300;
+    --font-normal: 400;
+    --font-bold: 700;
+    
+    // custom colors
+    --color-white:      hsl(0, 100%, 100%);
+    --color-black:      hsl(240, 2%, 12%);
+
+    --color-pink-base:  hsl(348, 100%, 72%);
+    --color-pink-dark:  hsl(347, 60%, 52%);
+    --color-pink-light: hsl(348, 100%, 90%);
+    --color-pink-bright: hsl(350, 100%, 95%);
+
+    --color-yellow-base:    hsl(45, 100%, 53%);
+    --color-yellow-light:   hsl(45, 100%, 76%);
+    --color-yellow-bright:  hsl(45, 100%, 89%);
+    --color-yellow-dark:    hsl(45, 49%, 39%);
+
+    --color-orange-base:    hsl(28, 85%, 53%);
+    --color-orange-light:   hsl(28, 85%, 80%);
+    --color-orange-bright:  hsl(28, 85%, 90%);
+    --color-orange-dark:    hsl(28, 85%, 35%);
+
+    --color-gray-base:      hsl(285, 2%, 42%);
+    --color-gray-light:     hsl(282, 5%, 64%);
+    --color-gray-bright:    hsl(282, 5%, 95%);
+    --color-gray-dark:      hsl(282, 2%, 25%);
+}

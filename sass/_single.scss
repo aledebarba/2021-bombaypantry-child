@@ -1,0 +1,21 @@
+.single {
+    
+    &__post{
+        
+        &__body {
+    
+            header {
+                margin: 32px 0px;
+                min-height: 150px;
+                border-radius: 8px;
+                border-bottom: 3px solid var(--color-gray-base);
+                @include flex-center;    
+            }
+
+            h1 {
+                color: var(--color-black);
+                font-weight: var(--font-bold);
+            }
+        }
+    }
+}
