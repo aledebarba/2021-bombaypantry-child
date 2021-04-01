@@ -1,0 +1,36 @@
+// usefull mixins
+
+@mixin responsive($property, $rules) {
+    @each $minwidth, $value in $rules {
+      @media (min-width: $minwidth) {
+        #{$property}: $value;
+      }
+    }
+  }
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin absolute($top:0, $left:0, $right: 0, $bottom:0) {
+    position: absolute;
+    top: $top; 
+    left: $left;
+    right: $right;
+    bottom: $bottom;
+}
+
+@mixin absolute-full-screen {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+@mixin trans__fade($speed:300ms) {
+  transition: all $speed ease-in-out
+}
+
