@@ -16,7 +16,7 @@ $heroImage = get_the_post_thumbnail_url( null, 'full' );
 <header class="page__header">
 	<div class="container">
 		<nav class="navbar navbar-expand-lg navbar-light px-0">
-				<a class="navbar-brand" href="https://bombay.circulateonline.com">
+				<a class="navbar-brand" href="<?php echo get_home_url(); ?>">
 					<div class="navbar-brand__logo">
 						<img src="<?php echo wp_get_attachment_url( 37 ); ?>" alt="Bombay Pantry Logo"/>
 					</div>
